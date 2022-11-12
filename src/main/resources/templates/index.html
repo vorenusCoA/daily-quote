@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<title>Daily Quotes</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div class="container">
+		<figure class="quote">
+			<blockquote th:text="${quote.quote}"></blockquote>
+			<figcaption th:text="${quote.author}"></figcaption>
+		</figure>
+	</div>
+
+</body>
+</html>

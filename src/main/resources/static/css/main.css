@@ -1,0 +1,28 @@
+html, body {
+	height: 100%;
+	background-color: #683d3d;
+}
+
+.container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.quote {
+	margin: 0;
+	padding: 1em;
+	font-style: italic;
+	color: white;
+	font-size: 2em;
+}
+
+figcaption, blockquote {
+	margin: 1em;
+}
+
+figcaption {
+	text-align: right;
+}
